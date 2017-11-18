@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Money Detector</string>
+    <string name="open_cam">This will open the built in camera of the mobile phone.</string>
+    <string name="open_gal">This opens the gallery and enables the user to select banknote images.</string>
+    <string name="app_info1">It is an application that will detect a counterfeit banknote. Mainly the 500 and 1000 peso bill.</string>
+    <string name="app_info2">It allows the users to capture Philippine banknote to verify authenticity using the mobile built-in
+        camera. The user can also select an image from his/her mobile gallery. It will then generate a list of security features;
+        to serve as a guide for the users to be aware of the banknote’s security features and determine if the banknote is
+        authentic or counterfeit.</string>
+    <string name="emboss_text">Embossed Prints - Raised prints that feel rough to the touch</string>
+    <string name="sn_text">Serial Number - Composed of 1 or 2 prefix letters and 6 or 7 asymmetric (increasing size)
+            digits located at the lower left and upper right corners of the face of
+            the note.</string>
+    <string name="fibers_text">Security Fibers - Red and blue visible fibers embedded on the paper at random and glow in
+            two colors under ultravioler light.</string>
+    <string name="water_text">Watermark - A shadow image of the portratit and the numeral seen at the blank space
+            of the note when viewed against the light from either side of the note</string>
+    <string name="see_through_text">See-Through Mark - The word "PILIPINO" written in Baybayin (pre-Spanish Philippine writing
+            system) is seen in complete from when the note is viewed against the light.</string>
+    <string name="concealed_text">Concelead Value = The denominational value superimposed on the smaller version portrait at
+            the upper left side of the note, which becomes obvious when the note is
+            rotated 45 degree and tilted down.
+            </string>
+    <string name="thread_text">Security Thread - A stitch-like metallic thread running vertically across the note which
+            changed color from red to green. The front of the thread bears the
+            alphanumeric of the banknote in cleartext while the back is imprinted
+            with "BSP", both in repeated series.</string>
+    <string name="ovd_text">
+            Optically Variable Device - A reflective foil that bears the image of back of the banknote inside
+            of it is a small BSP Logo. The color of the image changes from red to
+            green when the note is rotated at 90 degree.</string>
+    <string name="ovi_text">Oprically Variable Ink - Embossed Banknote denominational value at the lower right corner of the
+            face of the note that changes color from green to blue when viewed at
+            different angles.</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fakemoneyscanner_ui_non2"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="me.myapplication.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/openBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/camera" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/selectBtn"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/gallery"
+            />
+        <Button
+            android:id="@+id/aboutBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/about" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="OPEN \nCAMERA"
+            android:layout_marginRight="16dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="PICK FROM \nGALLERY"
+            android:textAlignment="center"
+            android:layout_marginRight="16dp"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ABOUT \nAPP"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>
